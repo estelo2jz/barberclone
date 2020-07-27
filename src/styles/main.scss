@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  background: #151616;
+  font-family: roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import './hours.scss';
+@import './service.scss';
+
+// Home
+.home-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: white;
+  height: 70vh;
+}
+
+// Background
+.background-container {
+}
+.container {
+  height: 90vh;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image-back {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.7;
+
+}
+
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+
+  h1 {
+    right: 40%;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+  }
+
+  p {
+    width: 500px;
+    font-size:1em; line-height:2.2em; margin-bottom:2.2em;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+  }
+}
+
+/* VIsit Container */
+.visit-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: white;
+
+  .visit-header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 3em;
+      font-family: 'Mulish', sans-serif;
+    }
+  }
+
+  .visit-address {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    h4 {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+  }
+}
+
