@@ -7,6 +7,7 @@ import About from './components/about';
 import Visit from './components/visit';
 import Hours from './components/hours';
 import Service from './components/service';
+import Blog from './components/blog';
 
 import { FaFacebookSquare, FaInstagramSquare, FaYelp, FaGooglePlusSquare } from 'react-icons/fa';
 
@@ -40,6 +41,7 @@ function App() {
       <Visit />
       <Hours />
       <Service />
+      <Blog />
     </div>
 
   );

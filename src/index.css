@@ -4,6 +4,7 @@ body {
   font-family: roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
@@ -11,9 +12,9 @@ code {
     monospace;
 }
 
-
 @import './styles/main.scss';
 @import './styles/hours.scss';
+@import './styles/blog.scss';
 
 
 :root {
