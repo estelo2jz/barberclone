@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+
+import { FaHeart } from 'react-icons/fa';
+
 import BlogOne from '../icons/blog9.jpg'
 import BlogTwo from '../icons/blog10.jpg'
 
@@ -21,8 +24,8 @@ export default class Blog extends Component {
                     <p>Royal Clippers</p>
                     <p>June 13</p>
                   </div>
-              <div class="bottom-right">Bottom Right</div>
-              <div class="centered">Centered</div>
+              <div class="bottom-right"><FaHeart /></div>
+              <div class="centered"><a href="#">Welcome to Our New Site</a></div>
               
             </div>
           </div>
@@ -36,10 +39,10 @@ export default class Blog extends Component {
                   <div class="bottom-left"><a href="#">Write a Comment</a></div>
                   <div class="top-left">
                     <p>Royal Clippers</p>
-                    <p>June 13</p>
+                    <p>July 23</p>
                   </div>
-                  <div class="bottom-right">Bottom Right</div>
-                  <div class="centered">Centered</div>
+                  <div class="bottom-right"><FaHeart /></div>
+                  <div class="centered"><a href="#">Royal Clipper's Ultimate Beard Guide</a></div>
                 </div>
             </div>
           </div>

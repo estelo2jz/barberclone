@@ -8,6 +8,7 @@ import Visit from './components/visit';
 import Hours from './components/hours';
 import Service from './components/service';
 import Blog from './components/blog';
+import Footer from './components/footer';
 
 import { FaFacebookSquare, FaInstagramSquare, FaYelp, FaGooglePlusSquare } from 'react-icons/fa';
 
@@ -24,13 +25,13 @@ function App() {
             <a href="https://www.facebook.com/"><FaFacebookSquare /></a>
           </div>
           <div className="links">
-            <a href="https://www.facebook.com/"><FaInstagramSquare /></a>
+            <a href="https://www.instagram.com/"><FaInstagramSquare /></a>
           </div>
           <div className="links">
-            <a href="https://www.facebook.com/"><FaGooglePlusSquare /></a>
+            <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjbuuLM4O7qAhUWac0KHQvmAi8QPAgH"><FaGooglePlusSquare /></a>
           </div>
           <div className="links">
-            <a href="https://www.facebook.com/"><FaYelp /></a>
+            <a href="https://www.yelp.com/"><FaYelp /></a>
           </div>
         </div>
         <BookAppointment book="BOOK APPOINTMENT" />
@@ -42,6 +43,7 @@ function App() {
       <Hours />
       <Service />
       <Blog />
+      <Footer />
     </div>
 
   );
