@@ -5,7 +5,7 @@ export default class Footer extends Component {
     return (
       <div className="footer-container">
         <div className="footer-info">
-          © 2020 Royal Clippers Barber Shop
+          © 2020 Barber Clone
         </div>
         <div className="footer-info">
           

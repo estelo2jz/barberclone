@@ -21,7 +21,7 @@ export default class Blog extends Component {
               </div>
               <div class="bottom-left"><a href="#">Write a Comment</a></div>
               <div class="top-left">
-                    <p>Royal Clippers</p>
+                    <p>Barber Clone</p>
                     <p>June 13</p>
                   </div>
               <div class="bottom-right"><FaHeart /></div>
@@ -38,7 +38,7 @@ export default class Blog extends Component {
                 <div className="blogs-content">
                   <div class="bottom-left"><a href="#">Write a Comment</a></div>
                   <div class="top-left">
-                    <p>Royal Clippers</p>
+                    <p>Barber Clone</p>
                     <p>July 23</p>
                   </div>
                   <div class="bottom-right"><FaHeart /></div>
