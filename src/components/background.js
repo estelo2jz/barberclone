@@ -6,7 +6,7 @@ export default class Background extends Component {
     return (
       <div className="background-container" >
         <div className="imgae-test">
-          <img src={Cover} />
+          <img src={Cover} alt="cover" />
         </div>
       </div>
     )
